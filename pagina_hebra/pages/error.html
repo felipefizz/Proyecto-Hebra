@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportar Error</title>
+    <link rel="shortcut icon" href="/img/Hebra.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<!--Barrra de navegación-->
+    <header>
+        <div class="header_superior" >
+            <div class="logo" >
+                <img src="../img/Hebra.jpeg" alt="Logo Hebra">
+            </div>
+        </div>
+
+        <div class="container__menu">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="galeria.html">Productos</a>
+                            <ul>
+                                <li><a href="pages/productos/anillos.html">Anillos</a></li>
+                                <li><a href="pages/productos/aros.html">Aros</a></li>
+                                <li><a href="pages/productos/billeteras.html">Billeteras</a></li>
+                                <li><a href="pages/productos/carteras.html">Carteras</a></li>
+                                <li><a href="pages/productos/colgantes.html">Colgantes</a></li>
+                                <li><a href="pages/productos/monederos.html">Monederos</a></li>
+                                <li><a href="pages/productos/otros.html">Otros...</a></li>
+                            </ul>
+                
+                        </li>
+                        <li><a href="carrito.html">Carrito</a></li>
+                        <li><a href="error.html">Comentarios</a></li>
+                        <li><a href="info.html">Sobre Mí</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+        </div>
+
+    </header>
+    <!--Formulario-->
+    <!--en action va la url donde va dirigida la informacion escrita en el formulario-->
+    <main id="formulariogeneral">
+        <h1 class="h1formulario" >Formulario:</h1>
+        <section class="fformulario">
+            <form class="formulario" action="">
+                <label class="fname" for="fnombre">Nombre completo:</label>
+                <input required type="text">
+                <label for="email">Introduce tu correo electronico:</label>
+                <input required type="email" name="correo" id="mail">
+                <input class="fdate" type="date" name="Fecha:" id="ffecha">
+                <p>Comentario:</p>
+                <p><textarea required name:"comentario"></textarea></p>
+                <input class="send" type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+<!--Footer-->
+    <footer >
+        <div class="footer_general">
+            <p>Todos los derechos reservados...</p>
+        </div>
+        
+    </footer>
+</body>
+</html>
